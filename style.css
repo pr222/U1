@@ -5,52 +5,82 @@ html {
 }
 
 body {
-    background-color: #d8d8d8;
+    background-color: #3e1435;
+    background-image: url(images/background.jpg);
+    background-position: top;
+    background-size: 650px;
+    background-repeat: repeat-x;
     font-family: Arial, Helvetica, sans-serif;
-    color: #003434;
-    /* BAKGRUNDSBILD p.303*/
+    color: #c6c6c6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
 }
 
-/* Navigeringslänkar med olika stil beroende på om muspekaren befinner sig över länken eller ej (hover) (p.316 */
+.mainHeader {
+    text-align: center;
+    font-size: 3rem;
+}
+
+/*        ----- Navigation Menu -----          */
 nav ul {
     list-style: none;
     margin: 0;
+    margin-bottom: 200px;
     padding: 0;
 }
 
 nav a{
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
     display: block;
-    margin: 0.2rem;
+    margin: 0.3rem;
 }
 
 nav a:link, a:visited{
-    background-color: antiquewhite;
-    color: #175076;
+    color: #feeca7;
 }
 
 nav a:hover, a:active{
-    background-color: #ceffce;
-    color: #11364f;
+    background-color: #59145c68;
+    color: #bababa;
 }
 
-nav.currentPage {
-    background-color: #d4eaff;
-    color: burlywood;
+nav a.currentPage {
+    color: #bababa;
 }
+
+/*        ----- END of Navigation Menu -----          */
+
 
 /* Olika egenskaper för stilsättning av texten (kap 12, p.261-) */
 
 /* Ändra på paragrafer */
-/* Skapa ett id för något specifikt och ändra det */
+
 /* Skapa en class och använd det till några saker */
 
-    /* Gör bilden på index inline? */
-    /* Ändra stil för description-listan, tjockare rubbe */
-    /* Ändra stil på blockquote */
 
     /* Ändra liststil för attribut-listan */
 
-    /* skapa en border runt bilder som är ads */
+ dt {
+     font-weight: 400;
+     font-size: 1.5rem;
+ }
+
+
+img.ad {
+    max-height: 150px;
+}
+
+#protocol {
+    opacity: 80%;
+}
+
+blockquote {
+    display: inline-block;
+    font-size: 1.5rem;
+    background-color: #800136;
+    padding: 20px;
+    margin-top: 0;
+}
