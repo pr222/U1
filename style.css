@@ -1,16 +1,56 @@
 @charset "UTF-8";
 
+html {
+    font-size: 16px;
+}
+
 body {
-    background-color: #d4eaff;
-/* BAKGRUNDSBILD p.303*/
+    background-color: #d8d8d8;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #003434;
+    /* BAKGRUNDSBILD p.303*/
 }
 
 /* Navigeringslänkar med olika stil beroende på om muspekaren befinner sig över länken eller ej (hover) (p.316 */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 2rem;
+    text-align: center;
+    display: block;
+    margin: 0.2rem;
+}
+
+nav a:link, a:visited{
+    background-color: antiquewhite;
+    color: #175076;
+}
+
+nav a:hover, a:active{
+    background-color: #ceffce;
+    color: #11364f;
+}
+
+nav.currentPage {
+    background-color: #d4eaff;
+    color: burlywood;
+}
 
 /* Olika egenskaper för stilsättning av texten (kap 12, p.261-) */
-
-/* Selektorer med referens till element, id och class */
 
 /* Ändra på paragrafer */
 /* Skapa ett id för något specifikt och ändra det */
 /* Skapa en class och använd det till några saker */
+
+    /* Gör bilden på index inline? */
+    /* Ändra stil för description-listan, tjockare rubbe */
+    /* Ändra stil på blockquote */
+
+    /* Ändra liststil för attribut-listan */
+
+    /* skapa en border runt bilder som är ads */
