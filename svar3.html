@@ -14,17 +14,24 @@
             <li><a href="svar3.html" class="currentPage">CSS</a></li>
         </ul>
     </nav>
-    <!-- Lägg till en bild -->
-    <!-- Lägg till en lista -->
-    <!-- Lägg till minst en länk till en extern sida -->
-    <!-- Minst en entitet på denna sida -->
     <main>
         <h1 class="mainHeader">CSS</h1>
-        <h1>Vad är en regel i CSS och vad består den av?</h1>
-        <!-- Läs p. 242 -->
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est praesentium eveniet tempora obcaecati possimus animi quas voluptatem excepturi eos quaerat veniam optio corrupti ab autem facilis deserunt ipsum, nam quisquam!</p>
-        <h1>Vad menas med kaskad i CSS?</h1>
-        <p>Kaskaden blir till genom att <strong>flera stilregler</strong> som skrivs efter varandra berör samma element. Däremot kan elementet bara följa en regel och väljer då den senaste. Eftersom kaskaden följer reglerna uppifrån och ner, betyder det alltså att <q>den senaste</q> <!--- regeln är den som står skriven längst ner utav de berörda reglerna i dokumentet. ---></p>
+        <h1>CSS regler</h1>
+        <p>En CSS regel ger instruktioner till hur någonting ska se ut på webbsajten. Den börjar med valet av selektor, exempelvis en element-selektor med namnet på det elementet man vill påverka i html-koden. Sedan behöver man deklarera vilka ändringar man vill göra inom &lcub; &rcub;, med egenskapen man vill ändra på och dess nya värde. Det går att läggar till flera deklarationer samtidigt genom att separera dem med semikolon. Ett exempel på en CSS regel skulle då kunna se ut såhär:</p>
+        <blockquote>img &lcub;width: 100px; height:100px;&rcub;</blockquote>
+        <h1>Kaskaden</h1>
+        <p>Det är vanligt att flera stilregler råkar påverka samma element på webbsidan. Eftersom koden läses av uppifrån och ned, blir då den senaste regeln den som sedan syns på sidan. Däremot går det att påverka detta genom prioritering eller typen av selektor. Ju mer specifik selektorn är desto mer företräde har den. Ett id har exempelvis företräde framför ett element. </p>
+        <p>För att ignorera alla andra satta regler går det att sätta en viss regel på topp-prioritet genom att avsluta regeln med &excl;important. Utöver det så ser piroritetslistan ut såhär:</p>
+        <ol>
+            <li>Vad användaren har satt som &excl;important.</li>
+            <li>Vad kod-författaren har satt som &excl;important.</li>
+            <li>Kod-författarens stilmall.</li>
+            <li>Användarens eventuella stilmall.</li>
+            <li>Webbläsarens egna standard-stilmall.  </li>
+        </ol>
+        <p>Läs mer på <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity" target="_blank">MDN web docs</a>.</p>
+            
+        
     </main>
     <footer>
         <img class="ad" src="images/css.png" alt="ad for css">

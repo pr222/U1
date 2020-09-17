@@ -17,6 +17,10 @@ body {
     padding: 30px;
 }
 
+h1, h2 {
+    font-weight: normal;
+}
+
 .mainHeader {
     text-align: center;
     font-size: 3rem;
@@ -78,9 +82,12 @@ img.ad {
 }
 
 blockquote {
-    display: inline-block;
+    display: block;
+    width: max-content;
     font-size: 1.5rem;
     background-color: #800136;
     padding: 20px;
     margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
