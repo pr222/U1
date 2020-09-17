@@ -74,6 +74,7 @@ img.ad {
 
 #protocol img {
     opacity: 80%;
+    max-height: 450px;
     float: right;
 }
 
