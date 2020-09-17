@@ -17,8 +17,8 @@
     <main>
         <h1 class="mainHeader">CSS</h1>
         <h1>CSS regler</h1>
-        <p>En CSS regel ger instruktioner till hur någonting ska se ut på webbsajten. Den börjar med valet av selektor, exempelvis en element-selektor med namnet på det elementet man vill påverka i html-koden. Sedan behöver man deklarera vilka ändringar man vill göra inom &lcub; &rcub;, med egenskapen man vill ändra på och dess nya värde. Det går att läggar till flera deklarationer samtidigt genom att separera dem med semikolon. Ett exempel på en CSS regel skulle då kunna se ut såhär:</p>
-        <blockquote>img &lcub;width: 100px; height:100px;&rcub;</blockquote>
+        <p>En CSS regel ger instruktioner till hur någonting ska se ut på webbsajten. Den börjar med valet av selektor, exempelvis en element-selektor med namnet på det elementet man vill påverka i html-koden. Sedan behöver man deklarera vilka ändringar man vill göra inom klammerparenteser: &lcub; &rcub;, med den egenskapen man vill ändra på och dess nya värde. Det går att läggar till flera deklarationer samtidigt genom att separera dem med semikolon, så som i bildexemplet nedan. Det som ligger inom klammerparenteserna kallas för deklarationsblock. Så länge man håller sig inom deklarationsblocket kan antingen ha de enskilda deklarationerna på varsin rad eller alla på en och samma.</p>
+        <img src="images/css_rule.png" alt="figur visande css regler">
         <h1>Kaskaden</h1>
         <p>Det är vanligt att flera stilregler råkar påverka samma element på webbsidan. Eftersom koden läses av uppifrån och ned, blir då den senaste regeln den som sedan syns på sidan. Däremot går det att påverka detta genom prioritering eller typen av selektor. Ju mer specifik selektorn är desto mer företräde har den. Ett id har exempelvis företräde framför ett element. </p>
         <p>För att ignorera alla andra satta regler går det att sätta en viss regel på topp-prioritet genom att avsluta regeln med &excl;important. Utöver det så ser piroritetslistan ut såhär:</p>
@@ -29,7 +29,6 @@
             <li>Användarens eventuella stilmall.</li>
             <li>Webbläsarens egna standard-stilmall.  </li>
         </ol>
-        <p>Läs mer på <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity" target="_blank">MDN web docs</a>.</p>
     </main>
     <footer>
         <img class="ad" src="images/css.png" alt="ad for css">

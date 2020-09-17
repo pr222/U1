@@ -27,7 +27,6 @@ h1, h2 {
     font-size: 3rem;
 }
 
-/* Ändra på paragrafer */
 p {
     line-height: 1.5rem;
 }
@@ -38,7 +37,6 @@ dt {
 }
 
 dd {
-    padding-right: 20%;
     line-height: 1.3rem;
 }
 
@@ -76,6 +74,11 @@ img.ad {
 
 #protocol img {
     opacity: 80%;
+    float: right;
+}
+
+#attribut {
+    max-height: 200px;
     float: right;
 }
 
